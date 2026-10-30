@@ -1,0 +1,2 @@
+FROM local/1cat-vllm:0.1.dev1-gfe67339dd-cuda12.8-ubuntu24.04
+COPY vllm /usr/local/lib/python3.12/dist-packages/vllm
